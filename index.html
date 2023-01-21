@@ -1,0 +1,52 @@
+<!-- jsg -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Green Survey Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="div1">
+        <br>
+        <image class="logo" src="images/6df0Go-Green-Grunge-Concept1.jpg" alt="logo image here"></image>
+    <h1 class="firstheading">GoGreen Survey Form</h1>
+    <p class="fpara">A survey form on the health of the environment</p>
+    <form class="surveyform" action="mailto:jitk123@gmail.com" method="post" enctype="text/plain">
+       <h2 >Name:</h2>
+       <input name="yourname" type="text" value="" class="name"placeholder="Enter your name e.g John Doe" required>
+       <h2>Email:</h2>
+       <input name="youremail" type="email" value="" class="email"placeholder="xyz@someplace.com" required>
+       <h2>Age(Optional):</h2>
+       <input name="yourage" type="date" value="" class="age" placeholder="Enter your age">
+       <h2 class="hd2">Select country of residence</h2>
+       <select class="countryname" name="residence">
+         <option value="africa">Africa</option>
+         <option value="india">India</option>
+         <option value="japan">Japan</option>
+         <option value="usa">USA</option>
+         <option value="dubai">Dubai</option>
+       </select>
+       <h2 class="hd2">Choose your prefered gender</h2>
+        <input name="female" type="radio" value="f" id="frbutton">
+        <label for="frbutton">Female</label><br><br>
+        <input name="male" type="radio" value="m" id="mrbutton">
+        <label for="mrbutton">Male</label><br><br>
+        <input name="other" type="radio" value="o" id="orbutton">
+        <label for="orbutton">Other</label>
+       <h2 class="hd2">Please select atleast one of the options below:</h2>
+        <input type="checkbox" class="jd-check" name="check1">
+        <label for="check1">I have planted a tree or any other plant</label><br><br>
+        <input type="checkbox" class="jd-check" name="check2">
+        <label for="check2">I belong to a GoGreen group</label><br><br>
+        <input type="checkbox" class="jd-check" name="check3">
+        <label for="check3">I take part in community service for the environment</label><br><br>
+        <input type="checkbox" class="jd-check" name="check4">
+        <label for="check4">I promise to plant more from now on</label><br><br>
+        <h2 class="hd2">Any comments or suggestions...</h2>
+        <textarea name="your_message" class="textbox"placeholder="Comments/Suggestions..."></textarea>
+        <br><br><input type="submit" value="Submit" class="submitbutton">
+    </form>
+    </div>
+</body>
+</html>

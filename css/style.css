@@ -1,0 +1,110 @@
+/* jsg */
+body
+{
+    background-image: url("https://www.wallpapertip.com/wmimgs/166-1668509_summer-forest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+     /* background-position: center center;  */
+    /* margin-bottom: 0px; */
+    background-attachment: fixed;
+    margin-top: 0;
+}
+.div1
+{
+     margin :auto;
+     /* background-color:rgb(105, 108, 105); */
+     padding: 15px;
+     border-radius: 0.625em;
+     color: white; 
+     background-image: linear-gradient(
+        to bottom,
+        rgba(2, 27, 5, 0.73),
+        rgba(0, 8, 1, 0.73)
+      );
+    width:60%;
+     
+    
+}
+.logo
+{
+    width: 70px;
+    height: 75px;
+}
+.firstheading
+{
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+.fpara
+{
+    color: white;
+    text-align: center;
+}
+.name
+{
+    margin-top: 0px;
+    width: 100%;
+    /* margin-bottom: 10px; */
+    height: 22px;
+}
+.email
+{
+    margin-top: 0px;
+    width: 100%;
+    /* margin-bottom: 10px; */
+    height: 20px;
+}
+.age
+{
+    margin-top: 0px;
+    width: 100%;
+    height: 25px;
+}
+.surveyform
+{
+    margin:40px;
+    
+   
+}
+.hd2
+{
+    text-align:center;
+}
+.countryname
+{
+    width: 100%;
+    height: 28px;
+}
+/* .hd2gender
+{
+    text-align:center;
+} */
+label
+{
+  
+    font-size:25px ;
+}
+.textbox
+{
+   width: 90%;
+   height: 20em;
+}
+.submitbutton
+{
+    position: relative;
+    left:10%;
+    text-align: center;
+    width: 65%;
+    background-color: rgb(5, 58, 5);
+    color: white;
+  font-size: 20px;
+  font-weight: bold;
+
+  width: 70%;
+  height: 40px;
+  outline: none;
+  border-radius: 5px;
+  border-color: rgb(5, 58, 5);
+   
+}
